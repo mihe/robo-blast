@@ -45,7 +45,7 @@ enum WEAPON_TYPE { DEFAULT, GRENADE }
 
 @onready var _equipped_weapon: WEAPON_TYPE = WEAPON_TYPE.DEFAULT
 @onready var _move_direction := Vector3.ZERO
-@onready var _last_strong_direction := Vector3.FORWARD
+@onready var _last_strong_direction := Vector3.BACK
 @onready var _gravity: float = -30.0
 @onready var _ground_height: float = 0.0
 @onready var _start_position := global_transform.origin
