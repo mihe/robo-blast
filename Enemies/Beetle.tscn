@@ -102,12 +102,8 @@ radius = 0.489449
 size = Vector3(1.4, 0.2, 1.4)
 
 [node name="GroundEnemy" type="RigidBody3D" groups=["damageables", "targeteables"]]
-axis_lock_angular_x = true
-axis_lock_angular_y = true
-axis_lock_angular_z = true
-gravity_scale = 0.0
-continuous_cd = true
-lock_rotation = true
+freeze = true
+freeze_mode = 1
 script = ExtResource("1_mefon")
 
 [node name="ReactionLabel" type="Label3D" parent="."]
