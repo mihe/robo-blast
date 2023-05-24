@@ -31,7 +31,6 @@ func set_target(new_target: PhysicsBody3D) -> void:
 	PhysicsServer3D.body_add_collision_exception(get_rid(), new_target.get_rid())
 
 	if _target == null:
-		sleeping = true
 		freeze = true
 
 		_initial_tween_position = global_position
