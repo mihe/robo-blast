@@ -170,9 +170,8 @@ _data = {
 size = Vector3(0.1, 0.5, 1)
 
 [node name="FlyingEnemy" type="RigidBody3D" groups=["damageables", "targeteables"]]
-gravity_scale = 0.0
-continuous_cd = true
-sleeping = true
+freeze = true
+freeze_mode = 1
 script = ExtResource("1_eehkx")
 
 [node name="ReactionLabel" type="Label3D" parent="."]

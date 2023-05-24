@@ -54,6 +54,7 @@ func damage(impact_point: Vector3, force: Vector3) -> void:
 	if not _alive:
 		return
 	
+	freeze = false
 	_defeat_sound.play()
 	_alive = false
 	
