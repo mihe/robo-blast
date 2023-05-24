@@ -5,7 +5,6 @@ const COINS_COUNT := 5
 const DESTROYED_BOX_SCENE := preload("res://Box/DestroyedBox.tscn")
 
 @onready var _destroy_sound: AudioStreamPlayer3D = $DestroySound
-@onready var _collision_shape: CollisionShape3D = $CollisionShape3d
 
 
 func damage(_impact_point: Vector3, _force: Vector3):
